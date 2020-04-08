@@ -12,12 +12,16 @@ def stackPop(arr):
   else:
     item1=arr.pop()
     return item1
-
+#Reading stack Top value
 def stackPeek(arr):
+  top=len(arr)
+  if top==0:
+    return "The Stack is empty"
   return arr[-1]
 
 listInput=[1,2,3,4,5]
-print(stackPush(listInput, 11))
+print(stackPop(listInput))
+print(stackPop(listInput))
 print(stackPop(listInput))
 print(stackPop(listInput))
 print(stackPop(listInput))

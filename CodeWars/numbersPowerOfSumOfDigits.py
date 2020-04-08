@@ -1,5 +1,7 @@
-# def power_sumDigTerm(n):
+def power_sumDigTerm(n):
     #your code here
+    
+
     
 
 def sumOfDigits(num):
