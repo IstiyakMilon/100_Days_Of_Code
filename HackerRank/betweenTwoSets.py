@@ -8,8 +8,8 @@ def commonDivisors(a,b,c):
 print(commonDivisors(16, 32, 96))
 
 def getTotalX(a, b):
-  results=[]
-  for i in range(1,max(b)+1):
-    if all(i%anum==0 for anum in a) and all(bnum%i==0 for bnum in b):
-      results.append(i)
-  return (len(results))
+  resultList=[]
+  for i in range(1, max(b)+1):
+    if all(i%numA==0 for numA in a) and all(numB%i==0 for numB in b):
+      resultList.append(i)
+  return (len(resultList))
