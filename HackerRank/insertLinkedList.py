@@ -27,4 +27,4 @@ head=None
 for i in range(T):
     data=int(input())
     head=mylist.insert(head,data)    
-mylist.display(head); 	  
+mylist.display(head) 	  
